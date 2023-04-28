@@ -5,10 +5,10 @@ In this project, we have compared Liver Tumor segmentation accuracies of four di
 The dataset is available for download on https://drive.google.com/drive/folders/13gtsM4-iFiBd_8cMKvIO7Q73d-YcdB0H?usp=share_link . Place this dataset in the "data" directory with the following structure.
 
 data-><br>
-    images-><br>
-         volume-0.nii<br>
-         ....<br>
-         volume-130.nii<br>
+----images-><br>
+----------volume-0.nii<br>
+----------....<br>
+----------volume-130.nii<br>
     segmentations-><br>
          segmentation-0.nii<br>
          ....<br>
