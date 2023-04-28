@@ -9,10 +9,10 @@ data-><br>
 ----------volume-0.nii<br>
 ----------....<br>
 ----------volume-130.nii<br>
-    segmentations-><br>
-         segmentation-0.nii<br>
-         ....<br>
-         segmentation-130.nii<br>
+----segmentations-><br>
+----------segmentation-0.nii<br>
+----------....<br>
+----------segmentation-130.nii<br>
 
 # Training & Inference
 To train the four architectures, run the "train_two_class.py" where the specific model to train can be passed as an argument. Also, the notebook "UNETR_LiTS_segmentation_3d.ipynb" can be only be used for training UNETR model, however, this notebook can be used to visualize the segmentation results for all the four achitectures.
