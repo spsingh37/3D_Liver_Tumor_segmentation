@@ -4,14 +4,15 @@ In this project, we have compared Liver Tumor segmentation accuracies of four di
 # Dataset
 The dataset is available for download on https://drive.google.com/drive/folders/13gtsM4-iFiBd_8cMKvIO7Q73d-YcdB0H?usp=share_link . Place this dataset in the "data" directory with the following structure.
 
-|data-><br>
-|---images->
-|---------volume-0.nii
-|---------....
-|---------volume-130.nii
-    segmentations->
-            segmentation-0.nii
-            segmentation-130.nii
+data-><br>
+    images-><br>
+         volume-0.nii<br>
+         ....<br>
+         volume-130.nii<br>
+    segmentations-><br>
+         segmentation-0.nii<br>
+         ....<br>
+         segmentation-130.nii<br>
 
 # Training & Inference
 To train the four architectures, run the "train_two_class.py" where the specific model to train can be passed as an argument. Also, the notebook "UNETR_LiTS_segmentation_3d.ipynb" can be only be used for training UNETR model, however, this notebook can be used to visualize the segmentation results for all the four achitectures.
