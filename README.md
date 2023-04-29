@@ -14,13 +14,13 @@ data-><br>
 ----------....<br>
 ----------segmentation-130.nii<br>
 # MONAI & dependencies Installation
-To install monai:
-pip install monai
+To install monai:<br>
+pip install monai<br>
 
-Then install some necessary dependencies:
-git clone https://github.com/Project-MONAI/MONAI.git
-cd MONAI/
-pip install -e '.[nibabel,skimage]'
+Then install some necessary dependencies:<br>
+git clone https://github.com/Project-MONAI/MONAI.git <br>
+cd MONAI/ <br>
+pip install -e '.[nibabel,skimage]' <br>
 
 # Training & Inference
 To train the four architectures, run the "train_two_class.py" where the specific model to train can be passed as an argument. Also, the notebook "UNETR_LiTS_segmentation_3d.ipynb" can be only be used for training UNETR model, however, this notebook can be used to visualize the segmentation results for all the four achitectures.
