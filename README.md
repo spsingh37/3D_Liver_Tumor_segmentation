@@ -22,3 +22,5 @@ To train the four architectures, run the "train_two_class.py" where the specific
 ![Screenshot](unetr_loss_plots.jpg)
 
 # Results
+![Screenshot](infer_small_tumor.png)
+![Screenshot](infer_large_tumor.png)
