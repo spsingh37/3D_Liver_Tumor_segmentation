@@ -18,3 +18,4 @@ data-><br>
 To train the four architectures, run the "train_two_class.py" where the specific model to train can be passed as an argument. Also, the notebook "UNETR_LiTS_segmentation_3d.ipynb" can be only be used for training UNETR model, however, this notebook can be used to visualize the segmentation results for all the four achitectures.
 
 # Results
+![Screenshot](unet_loss_graph.png)
