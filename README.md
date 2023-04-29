@@ -19,3 +19,5 @@ To train the four architectures, run the "train_two_class.py" where the specific
 
 # Results
 ![Screenshot](unet_loss_graph.png)
+![Screenshot](resunet_loss_graph.png)
+![Screenshot](segresnet_epoch.png)
