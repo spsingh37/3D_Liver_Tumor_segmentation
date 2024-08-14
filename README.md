@@ -2,15 +2,24 @@
 In this project, we have compared Liver Tumor segmentation accuracies of four different architectures- UNet, ResUNet, SegResNet, & UNETR, over 2017 LiTS dataset. To evaluate the architectures' performances we used DICE score. 
 
 # Dataset
-The dataset is available for download on https://drive.google.com/drive/folders/13gtsM4-iFiBd_8cMKvIO7Q73d-YcdB0H?usp=share_link . Place this dataset in the "data" directory with the following structure.
+The dataset is available for download on https://drive.google.com/drive/folders/13gtsM4-iFiBd_8cMKvIO7Q73d-YcdB0H?usp=share_link . Place this dataset in the "data" following the instructions given in 'data_preparation.ipynb'. Following the data pre=processing steps there, you'll get the following structure:
 
-data-><br>
+data/task_data/TrainVolumes_full-><br>
 ----images-><br>
 ----------volume-0.nii<br>
 ----------....<br>
-----------volume-130.nii<br>
-----segmentations-><br>
+----------volume-104.nii<br>
+data/task_data/TrainLabels_full-><br>
 ----------segmentation-0.nii<br>
+----------....<br>
+----------segmentation-104.nii<br>
+data/task_data/TestVolumes_full-><br>
+----images-><br>
+----------volume-105.nii<br>
+----------....<br>
+----------volume-130.nii<br>
+data/task_data/TestLabels_full-><br>
+----------segmentation-105.nii<br>
 ----------....<br>
 ----------segmentation-130.nii<br>
 # MONAI & dependencies Installation
