@@ -33,11 +33,11 @@ pip install -e '.[nibabel,skimage]' <br>
 
 # Training & Inference
 To train the four architectures, run the "train_two_class.py" where the specific model to train can be passed as an argument. Also, the notebook "UNETR_LiTS_segmentation_3d.ipynb" can be only be used for training UNETR model, however, this notebook can be used to visualize the segmentation results for all the four achitectures.
-![Screenshot](unet_loss_graph.png)
-![Screenshot](resunet_loss_graph.png)
-![Screenshot](segresnet_epoch.png)
-![Screenshot](unetr_loss_plots.jpg)
+![Screenshot](assets/unet_loss_graph.png)
+![Screenshot](assets/resunet_loss_graph.png)
+![Screenshot](assets/segresnet_epoch.png)
+![Screenshot](assets/unetr_loss_plots.jpg)
 
 # Results
-![Screenshot](infer_small_tumor.png)
-![Screenshot](infer_large_tumor.png)
+![Screenshot](assets/infer_small_tumor.png)
+![Screenshot](assets/infer_large_tumor.png)
